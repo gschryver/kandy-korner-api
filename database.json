@@ -1,0 +1,109 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com"
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "loyaltyNumber": "12345",
+        "storeId": 1
+      },
+      {
+        "id": 2,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "loyaltyNumber": "67890",
+        "storeId": 2
+      }
+    ],
+    "employees": [
+      {
+        "id": 1,
+        "name": "Joe Black",
+        "email": "joe.black@example.com",
+        "startDate": "2022-01-01",
+        "payRate": 15.50,
+        "storeId": 1,
+        "userId": 1
+      },
+      {
+        "id": 2,
+        "name": "Mary White",
+        "email": "mary.white@example.com",
+        "startDate": "2022-01-01",
+        "payRate": 16.00,
+        "storeId": 2,
+        "userId": 2
+      }
+    ],
+    "locations": [
+      {
+        "id": 1,
+        "address": "123 Main St.",
+        "squareFootage": 1500
+      },
+      {
+        "id": 2,
+        "address": "456 Elm St.",
+        "squareFootage": 2000
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Snickers",
+        "typeId": 1,
+        "pricePerUnit": 1.25
+      },
+      {
+        "id": 2,
+        "name": "Reese's",
+        "typeId": 1,
+        "pricePerUnit": 1.50
+      },
+      {
+        "id": 3,
+        "name": "Skittles",
+        "typeId": 2,
+        "pricePerUnit": 0.75
+      }
+    ],
+    "productTypes": [
+      {
+        "id": 1,
+        "name": "Chocolate"
+      },
+      {
+        "id": 2,
+        "name": "Candy"
+      }
+    ],
+    "purchases": [
+      {
+        "id": 1,
+        "customerId": 1,
+        "productId": 1,
+        "quantity": 5,
+        "storeId": 1
+      },
+      {
+        "id": 2,
+        "customerId": 2,
+        "productId": 2,
+        "quantity": 3,
+        "storeId": 2
+      }
+    ]
+  }
+  
