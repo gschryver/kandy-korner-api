@@ -56,11 +56,13 @@
     "locations": [
       {
         "id": 1,
+        "name": "Kandy Korner on Main",
         "address": "123 Main St.",
         "squareFootage": 1500
       },
       {
         "id": 2,
+        "name": "Kandy Korner on Elm",
         "address": "456 Elm St.",
         "squareFootage": 2000
       }
