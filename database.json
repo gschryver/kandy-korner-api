@@ -67,27 +67,39 @@
         "squareFootage": 2000
       }
     ],
-    "products": [
+    "inventory": [
       {
         "id": 1,
         "name": "Snickers",
         "typeId": 1,
-        "pricePerUnit": 1.25
+        "pricePerUnit": 1.75
       },
       {
         "id": 2,
         "name": "Reese's",
         "typeId": 1,
-        "pricePerUnit": 1.50
+        "pricePerUnit": 2.50
       },
       {
         "id": 3,
         "name": "Skittles",
         "typeId": 2,
-        "pricePerUnit": 0.75
+        "pricePerUnit": 2.00
+      },
+      {
+        "id": 4,
+        "name": "Turkish Delight",
+        "typeId": 2,
+        "pricePerUnit": 2.50
+      },
+      {
+        "id": 5,
+        "name": "Gummi Sharks",
+        "typeId": 2,
+        "pricePerUnit": 3.00
       }
     ],
-    "productTypes": [
+    "types": [
       {
         "id": 1,
         "name": "Chocolate"
