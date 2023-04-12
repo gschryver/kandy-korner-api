@@ -2,49 +2,55 @@
     "users": [
       {
         "id": 1,
-        "name": "John Doe",
-        "email": "john.doe@example.com"
-      },
-      {
-        "id": 2,
-        "name": "Jane Doe",
-        "email": "jane.doe@example.com"
-      }
-    ],
-    "customers": [
-      {
-        "id": 1,
         "name": "Bob Smith",
         "email": "bob.smith@example.com",
-        "loyaltyNumber": "12345",
-        "storeId": 1
+        "isStaff": false
       },
       {
         "id": 2,
         "name": "Alice Johnson",
         "email": "alice.johnson@example.com",
+        "isStaff": false
+      },
+      {   
+        "id": 3,
+        "name": "Joe Black",
+        "email": "joe.black@example.com",
+        "isStaff": true
+      },
+      { 
+        "id": 4,
+        "name": "Mary White",
+        "email": "mary.white@example.com",
+        "isStaff": true
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "loyaltyNumber": "12345",
+        "userId": 1   
+      },
+      {
+        "id": 2,
         "loyaltyNumber": "67890",
-        "storeId": 2
+        "userId": 2
       }
     ],
     "employees": [
       {
         "id": 1,
-        "name": "Joe Black",
-        "email": "joe.black@example.com",
         "startDate": "2022-01-01",
         "payRate": 15.50,
         "storeId": 1,
-        "userId": 1
+        "userId": 3 
       },
       {
         "id": 2,
-        "name": "Mary White",
-        "email": "mary.white@example.com",
         "startDate": "2022-01-01",
         "payRate": 16.00,
         "storeId": 2,
-        "userId": 2
+        "userId": 4
       }
     ],
     "locations": [
