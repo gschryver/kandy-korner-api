@@ -1,129 +1,182 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Bob Smith",
-        "email": "bob.smith@example.com",
-        "isStaff": false
-      },
-      {
-        "id": 2,
-        "name": "Alice Johnson",
-        "email": "alice.johnson@example.com",
-        "isStaff": false
-      },
-      {   
-        "id": 3,
-        "name": "Joe Black",
-        "email": "joe.black@example.com",
-        "isStaff": true
-      },
-      { 
-        "id": 4,
-        "name": "Mary White",
-        "email": "mary.white@example.com",
-        "isStaff": true
-      }
-    ],
-    "customers": [
-      {
-        "id": 1,
-        "loyaltyNumber": "12345",
-        "userId": 1   
-      },
-      {
-        "id": 2,
-        "loyaltyNumber": "67890",
-        "userId": 2
-      }
-    ],
-    "employees": [
-      {
-        "id": 1,
-        "startDate": "2022-01-01",
-        "payRate": 15.50,
-        "storeId": 1,
-        "userId": 3 
-      },
-      {
-        "id": 2,
-        "startDate": "2022-01-01",
-        "payRate": 16.00,
-        "storeId": 2,
-        "userId": 4
-      }
-    ],
-    "locations": [
-      {
-        "id": 1,
-        "name": "Kandy Korner on Main",
-        "address": "123 Main St.",
-        "squareFootage": 1500
-      },
-      {
-        "id": 2,
-        "name": "Kandy Korner on Elm",
-        "address": "456 Elm St.",
-        "squareFootage": 2000
-      }
-    ],
-    "inventory": [
-      {
-        "id": 1,
-        "name": "Snickers",
-        "typeId": 1,
-        "pricePerUnit": 1.75
-      },
-      {
-        "id": 2,
-        "name": "Reese's",
-        "typeId": 1,
-        "pricePerUnit": 2.50
-      },
-      {
-        "id": 3,
-        "name": "Skittles",
-        "typeId": 2,
-        "pricePerUnit": 2.00
-      },
-      {
-        "id": 4,
-        "name": "Turkish Delight",
-        "typeId": 2,
-        "pricePerUnit": 2.50
-      },
-      {
-        "id": 5,
-        "name": "Gummi Sharks",
-        "typeId": 2,
-        "pricePerUnit": 3.00
-      }
-    ],
-    "types": [
-      {
-        "id": 1,
-        "name": "Chocolate"
-      },
-      {
-        "id": 2,
-        "name": "Candy"
-      }
-    ],
-    "purchases": [
-      {
-        "id": 1,
-        "customerId": 1,
-        "productId": 1,
-        "quantity": 5,
-        "storeId": 1
-      },
-      {
-        "id": 2,
-        "customerId": 2,
-        "productId": 2,
-        "quantity": 3,
-        "storeId": 2
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": 1,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "name": "Joe Black",
+      "email": "joe.black@example.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "name": "Mary White",
+      "email": "mary.white@example.com",
+      "isStaff": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyaltyNumber": "12345",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "loyaltyNumber": "67890",
+      "userId": 2
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "2022-01-01",
+      "payRate": 15.5,
+      "storeId": 1,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "startDate": "2022-01-01",
+      "payRate": 16,
+      "storeId": 2,
+      "userId": 4
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Kandy Korner on Main",
+      "address": "123 Main St.",
+      "squareFootage": 1500
+    },
+    {
+      "id": 2,
+      "name": "Kandy Korner on Elm",
+      "address": "456 Elm St.",
+      "squareFootage": 2000
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "name": "Snickers",
+      "typeId": 1,
+      "pricePerUnit": 1.75,
+      "locationIds": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Reese's",
+      "typeId": 1,
+      "pricePerUnit": 2.5,
+      "locationIds": [1, 2]
+    },
+    {
+      "id": 3,
+      "name": "Skittles",
+      "typeId": 2,
+      "pricePerUnit": 2,
+      "locationIds": [1, 2]
+    },
+    {
+      "id": 4,
+      "name": "Turkish Delight",
+      "typeId": 2,
+      "pricePerUnit": 2.5,
+      "locationIds": [2]
+    },
+    {
+      "id": 5,
+      "name": "Gummi Sharks",
+      "typeId": 2,
+      "pricePerUnit": 3,
+      "locationIds": [1]
+    },
+    {
+      "name": "Test Candy",
+      "typeId": "1",
+      "pricePerUnit": 5,
+      "id": 6,
+      "locationIds": [1]
+    },
+    {
+      "name": "Swedish Fish",
+      "typeId": "2",
+      "pricePerUnit": 3,
+      "id": 7,
+      "locationIds": [1, 2]
+    },
+    {
+      "name": "Haribo Gummi Bears",
+      "typeId": "2",
+      "pricePerUnit": 3,
+      "id": 8,
+      "locationIds": [1, 2]
+    },
+    {
+      "name": "Haribo Gummi Bears",
+      "typeId": "2",
+      "pricePerUnit": 3,
+      "id": 9,
+      "locationIds": [1]
+    },
+    {
+      "name": "Haribo Gummi Bears",
+      "typeId": "2",
+      "pricePerUnit": 3,
+      "id": 10,
+      "locationIds": [2]
+    },
+    {
+      "name": "Test candy",
+      "typeId": "1",
+      "pricePerUnit": 3,
+      "id": 11,
+      "locationIds": [2]
+    },
+    {
+      "name": "Pumpkin Pastie",
+      "typeId": "2",
+      "pricePerUnit": 5,
+      "id": 12,
+      "locationIds": [1, 2]
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Chocolate"
+    },
+    {
+      "id": 2,
+      "name": "Candy"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 5,
+      "storeId": 1
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "productId": 2,
+      "quantity": 3,
+      "storeId": 2
+    }
+  ]
+}
