@@ -29,48 +29,6 @@
       "email": "jane@austen.net",
       "isStaff": true,
       "id": 5
-    },
-    {
-      "name": "Emily",
-      "email": "e@bronte.com",
-      "isStaff": true,
-      "id": 6
-    },
-    {
-      "name": "Gabrielle Schryver",
-      "email": "gabrielle.kiyo@gmail.com",
-      "isStaff": true,
-      "id": 7
-    },
-    {
-      "name": "JK Rowling",
-      "email": "jk@hp.com",
-      "isStaff": true,
-      "id": 8
-    },
-    {
-      "name": "JK Rowling",
-      "email": "jk@hp.net",
-      "isStaff": true,
-      "id": 9
-    },
-    {
-      "name": "Pedro Pascal",
-      "email": "pedro@mand.com",
-      "isStaff": true,
-      "id": 10
-    },
-    {
-      "name": "Test Name",
-      "email": "test@name.com",
-      "isStaff": true,
-      "id": 11
-    },
-    {
-      "name": "Gabrielle Schryver",
-      "email": "gabrielle.kiyo@gmail.com",
-      "isStaff": true,
-      "id": 12
     }
   ],
   "customers": [
@@ -102,9 +60,9 @@
     },
     {
       "startDate": "2023-04-14",
-      "payRate": "15",
-      "locationId": "2",
-      "userId": 12,
+      "payRate": "15.00",
+      "locationId": "1",
+      "userId": 5,
       "id": 3
     }
   ],
