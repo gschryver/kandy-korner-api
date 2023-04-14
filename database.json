@@ -35,6 +35,12 @@
       "email": "pablo@neruda.net",
       "isStaff": true,
       "id": 6
+    },
+    {
+      "name": "Sylvia Plath",
+      "email": "sylvia.plath@sadgirl.org",
+      "isStaff": true,
+      "id": 7
     }
   ],
   "customers": [
@@ -77,6 +83,13 @@
       "locationId": "2",
       "userId": 6,
       "id": 4
+    },
+    {
+      "startDate": "2023-04-15",
+      "payRate": "25",
+      "locationId": "2",
+      "userId": 7,
+      "id": 5
     }
   ],
   "locations": [
