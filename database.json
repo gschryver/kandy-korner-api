@@ -23,6 +23,54 @@
       "name": "Mary White",
       "email": "mary.white@example.com",
       "isStaff": true
+    },
+    {
+      "name": "Jane Austen",
+      "email": "jane@austen.net",
+      "isStaff": true,
+      "id": 5
+    },
+    {
+      "name": "Emily",
+      "email": "e@bronte.com",
+      "isStaff": true,
+      "id": 6
+    },
+    {
+      "name": "Gabrielle Schryver",
+      "email": "gabrielle.kiyo@gmail.com",
+      "isStaff": true,
+      "id": 7
+    },
+    {
+      "name": "JK Rowling",
+      "email": "jk@hp.com",
+      "isStaff": true,
+      "id": 8
+    },
+    {
+      "name": "JK Rowling",
+      "email": "jk@hp.net",
+      "isStaff": true,
+      "id": 9
+    },
+    {
+      "name": "Pedro Pascal",
+      "email": "pedro@mand.com",
+      "isStaff": true,
+      "id": 10
+    },
+    {
+      "name": "Test Name",
+      "email": "test@name.com",
+      "isStaff": true,
+      "id": 11
+    },
+    {
+      "name": "Gabrielle Schryver",
+      "email": "gabrielle.kiyo@gmail.com",
+      "isStaff": true,
+      "id": 12
     }
   ],
   "customers": [
@@ -42,15 +90,22 @@
       "id": 1,
       "startDate": "2022-01-01",
       "payRate": 15.5,
-      "storeId": 1,
+      "locationId": 1,
       "userId": 3
     },
     {
       "id": 2,
       "startDate": "2022-01-01",
       "payRate": 16,
-      "storeId": 2,
+      "locationId": 2,
       "userId": 4
+    },
+    {
+      "startDate": "2023-04-14",
+      "payRate": "15",
+      "locationId": "2",
+      "userId": 12,
+      "id": 3
     }
   ],
   "locations": [
@@ -73,84 +128,126 @@
       "name": "Snickers",
       "typeId": 1,
       "pricePerUnit": 1.75,
-      "locationIds": [1, 2]
+      "locationIds": [
+        1,
+        2
+      ]
     },
     {
       "id": 2,
       "name": "Reese's",
       "typeId": 1,
       "pricePerUnit": 2.5,
-      "locationIds": [1, 2]
+      "locationIds": [
+        1,
+        2
+      ]
     },
     {
       "id": 3,
       "name": "Skittles",
       "typeId": 2,
       "pricePerUnit": 2,
-      "locationIds": [1, 2]
+      "locationIds": [
+        1,
+        2
+      ]
     },
     {
       "id": 4,
       "name": "Turkish Delight",
       "typeId": 2,
       "pricePerUnit": 2.5,
-      "locationIds": [2]
+      "locationIds": [
+        2
+      ]
     },
     {
       "id": 5,
       "name": "Gummi Sharks",
       "typeId": 2,
       "pricePerUnit": 3,
-      "locationIds": [1]
+      "locationIds": [
+        1
+      ]
     },
     {
       "name": "Test Candy",
       "typeId": "1",
       "pricePerUnit": 5,
       "id": 6,
-      "locationIds": [1]
+      "locationIds": [
+        1
+      ]
     },
     {
       "name": "Swedish Fish",
       "typeId": "2",
       "pricePerUnit": 3,
       "id": 7,
-      "locationIds": [1, 2]
+      "locationIds": [
+        1,
+        2
+      ]
     },
     {
       "name": "Haribo Gummi Bears",
       "typeId": "2",
       "pricePerUnit": 3,
       "id": 8,
-      "locationIds": [1, 2]
+      "locationIds": [
+        1,
+        2
+      ]
     },
     {
       "name": "Haribo Gummi Bears",
       "typeId": "2",
       "pricePerUnit": 3,
       "id": 9,
-      "locationIds": [1]
+      "locationIds": [
+        1
+      ]
     },
     {
       "name": "Haribo Gummi Bears",
       "typeId": "2",
       "pricePerUnit": 3,
       "id": 10,
-      "locationIds": [2]
+      "locationIds": [
+        2
+      ]
     },
     {
       "name": "Test candy",
       "typeId": "1",
       "pricePerUnit": 3,
       "id": 11,
-      "locationIds": [2]
+      "locationIds": [
+        2
+      ]
     },
     {
       "name": "Pumpkin Pastie",
       "typeId": "2",
       "pricePerUnit": 5,
       "id": 12,
-      "locationIds": [1, 2]
+      "locationIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Hershey's",
+      "typeId": "1",
+      "pricePerUnit": 3,
+      "id": 13
+    },
+    {
+      "name": "Test",
+      "typeId": "1",
+      "pricePerUnit": 5,
+      "id": 14
     }
   ],
   "types": [
