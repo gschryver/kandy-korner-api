@@ -172,53 +172,10 @@
       ]
     },
     {
-      "name": "Haribo Gummi Bears",
+      "name": "Gummi Froggos",
       "typeId": "2",
-      "pricePerUnit": 3,
-      "id": 9,
-      "locationIds": [
-        1
-      ]
-    },
-    {
-      "name": "Haribo Gummi Bears",
-      "typeId": "2",
-      "pricePerUnit": 3,
-      "id": 10,
-      "locationIds": [
-        2
-      ]
-    },
-    {
-      "name": "Test candy",
-      "typeId": "1",
-      "pricePerUnit": 3,
-      "id": 11,
-      "locationIds": [
-        2
-      ]
-    },
-    {
-      "name": "Pumpkin Pastie",
-      "typeId": "2",
-      "pricePerUnit": 5,
-      "id": 12,
-      "locationIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "name": "Hershey's",
-      "typeId": "1",
-      "pricePerUnit": 3,
-      "id": 13
-    },
-    {
-      "name": "Test",
-      "typeId": "1",
-      "pricePerUnit": 5,
-      "id": 14
+      "pricePerUnit": 2,
+      "id": 9
     }
   ],
   "types": [
