@@ -29,6 +29,12 @@
       "email": "jane@austen.net",
       "isStaff": true,
       "id": 5
+    },
+    {
+      "name": "Pablo Neruda",
+      "email": "pablo@neruda.net",
+      "isStaff": true,
+      "id": 6
     }
   ],
   "customers": [
@@ -64,6 +70,13 @@
       "locationId": "1",
       "userId": 5,
       "id": 3
+    },
+    {
+      "startDate": "2023-04-14",
+      "payRate": "20.00",
+      "locationId": "2",
+      "userId": 6,
+      "id": 4
     }
   ],
   "locations": [
