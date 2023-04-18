@@ -25,34 +25,22 @@
       "isStaff": true
     },
     {
-      "name": "Jane Austen",
-      "email": "jane@austen.net",
+      "name": "Sylvia Plath",
+      "email": "sylvia@plath.org",
       "isStaff": true,
       "id": 5
-    },
-    {
-      "name": "Pablo Neruda",
-      "email": "pablo@neruda.net",
-      "isStaff": true,
-      "id": 6
-    },
-    {
-      "name": "Sylvia Plath",
-      "email": "sylvia.plath@sadgirl.org",
-      "isStaff": true,
-      "id": 7
     }
   ],
   "customers": [
     {
       "id": 1,
-      "loyaltyNumber": "12345",
-      "userId": 1
+      "loyaltyNumber": "13454",
+      "userId": 2
     },
     {
       "id": 2,
-      "loyaltyNumber": "67890",
-      "userId": 2
+      "loyaltyNumber": "67892",
+      "userId": 1
     }
   ],
   "employees": [
@@ -71,25 +59,11 @@
       "userId": 4
     },
     {
-      "startDate": "2023-04-14",
-      "payRate": "15.00",
+      "startDate": "2023-04-21",
+      "payRate": "25",
       "locationId": "1",
       "userId": 5,
       "id": 3
-    },
-    {
-      "startDate": "2023-04-14",
-      "payRate": "20.00",
-      "locationId": "2",
-      "userId": 6,
-      "id": 4
-    },
-    {
-      "startDate": "2023-04-15",
-      "payRate": "25",
-      "locationId": "2",
-      "userId": 7,
-      "id": 5
     }
   ],
   "locations": [
@@ -215,6 +189,27 @@
       "productId": 2,
       "quantity": 3,
       "storeId": 2
+    },
+    {
+      "customerId": 1,
+      "productId": 5,
+      "quantity": 1,
+      "storeId": 1,
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "productId": 5,
+      "quantity": 1,
+      "storeId": 1,
+      "id": 4
+    },
+    {
+      "customerId": 1,
+      "productId": 8,
+      "quantity": 1,
+      "storeId": 1,
+      "id": 5
     }
   ]
 }
